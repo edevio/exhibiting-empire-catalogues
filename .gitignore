@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Editors
+*.swp
+*~
+.vscode/
+.idea/
+
+# WordPress/PHP plugin files (not needed for standalone HTML deployment)
+*.php
+readme.txt
+
+# Unminified source JS (dflip.min.js is used instead)
+dflip.js
+
+# Source PDFs — served from LJMU live URLs, not stored in repo
+*/src/
+
+# DearFlip library files — loaded via CDN, do not commit
+*/dflip.min.js
+*/jquery.min.js
+*/css/
+*/js/
+*/images/
+*/sound/
+*/pdfjs/
+*/cmaps/
+
+# DearFlip scraped documentation — reference only, not project source
+cdocs/
